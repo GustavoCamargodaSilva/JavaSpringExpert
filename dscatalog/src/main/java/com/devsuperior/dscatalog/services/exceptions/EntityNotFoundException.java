@@ -4,7 +4,7 @@ import org.springframework.http.HttpStatus;
 
 public class EntityNotFoundException extends RuntimeException{
 
-    public EntityNotFoundException(String msg, HttpStatus status){
+    public EntityNotFoundException(String msg){
         super(msg);
     }
 }
